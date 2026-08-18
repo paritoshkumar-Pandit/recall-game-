@@ -1,23 +1,41 @@
+# 🧠 Recall Game
 
-🧠 Recall Game
-Recall Game is a lightweight, interactive web game designed to test and train your short-term memory and focus. The game challenges players to observe a dynamically generated color sequence and repeat it accurately from memory.
+An interactive, browser-based memory recall game built with **HTML5**, **CSS3**, and **Vanilla JavaScript**. Test and sharpen your short-term memory by repeating progressively longer sequences of colors and button flashes!
 
-🎮 How to Play
-Start the Game: Press any key on your keyboard to start round 1.
-Watch the Sequence: Observe the order in which the colored blocks flash.
-Repeat the Pattern: Click the colored tiles in the exact sequence shown.
-Level Up: Each completed sequence adds a new step to the pattern.
-Game Over: If you select the wrong color, the game ends and displays your final score. Press any key to try again!
-✨ Features
-⚡ Dynamic Sequence Generation: Every round creates a new, random pattern.
-💡 Interactive Visual Effects: Visual flash indicators on button clicks and game prompts.
-🎯 Score Tracking: Tracks your current level and displays your final score upon game over.
-🚀 Zero Dependencies: Pure HTML5, CSS3, and Vanilla JavaScript with fast loading times.
-🛠️ Tech Stack
-HTML5 – Page layout and structure
-CSS3 – Grid styling, button themes, and animations
-JavaScript – Game state management, sequence logic, and DOM interaction
-🚀 Getting Started
-Clone the repository:
-git clone https://github.com/paritoshkumar-Pandit/recall-game.git
+---
 
+## 🎮 Preview & Demo
+
+> A minimalist 4-tile memory board featuring interactive colored buttons (Red, Yellow, Green, Purple) that light up sequentially.
+
+---
+
+## ✨ Features
+
+- ⚡ **Pure Vanilla JavaScript**: Lightweight, fast, and completely dependency-free.
+- 🎯 **Progressive Difficulty**: Every level introduces a new randomized step to the sequence.
+- 💡 **Visual Flash Feedback**: Smooth visual cues when tiles flash or when clicked by the user.
+- 📊 **Real-time Score & Level Tracking**: Tracks your current level and displays your score upon Game Over.
+- 🚨 **Game Over Alert**: Visual red flash alert with a score summary when an incorrect tile is clicked.
+- 🔄 **Instant Restart**: Quickly restart with a single keypress without needing to refresh the page.
+
+---
+
+## 🕹️ How to Play
+
+1. **Start the Game**: Press any key on your keyboard to begin.
+2. **Watch the Sequence**: Observe the colored tiles flashing in order.
+3. **Recall & Repeat**: Click the buttons in the exact same sequence.
+4. **Level Up**: Reproduce the full sequence correctly to advance to the next level.
+5. **Game Over**: Clicking the wrong tile ends the game and shows your final score. Press any key to try again!
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+recall-game/
+├── recall.html       # Game structure and UI layout
+├── recall.css        # Styling, layout, and flash animations
+├── recall.js         # Core game mechanics, sequence tracking & state logic
+└── README.md         # Documentation
